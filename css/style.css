@@ -15,7 +15,7 @@ body{
 }
 
 nav{
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 0px 0px 5px var(--secundary-color);
     padding:1rem;
 }
 
@@ -33,3 +33,56 @@ nav ul{
 .nav-list li{
     padding:.5rem;
 }
+
+/***HERO***/
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding:3rem;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 30%;
+}
+
+.hero-content-presentation{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+h1{
+    font-size: 2rem;
+    width: 70%;
+}
+
+.hero-content-follow-me{
+    display: flex;
+    gap:1rem;
+}
+
+.hero-content-follow-me-icons{
+    display: flex;
+    gap:1rem;
+}
+
+.hero-content-btns{
+    display: flex;
+    gap:1rem;
+}
+
+.hero-pic{
+    aspect-ratio: 1/1;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 0 10px var(--secundary-color);
+    background-image: url("../assets/img/cara.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width:300px;
+}
+    
