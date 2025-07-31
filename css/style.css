@@ -7,7 +7,7 @@
 
 :root{
     --primary-color: #EFEDDC;
-    --secundary-color: #18171C;
+    --secundary-color: #00050A;
 }
 
 body{
@@ -157,5 +157,69 @@ h2{
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: .5rem;
+}
+
+/***MY PROJECTS***/
+
+.my-projects{
+    display: flex;
+    justify-content: center;
+    padding:3rem;
+}
+
+.my-projects-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width:75%;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:1rem;
+}
+
+.projects-item{
+    border-radius: 1rem;
+    box-shadow: 0 0 10px black;
+    display: flex; flex-direction: column;
+    gap: 1rem;
+    padding:1rem;
+}
+
+.projects-item-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 200px;
+    
+}
+
+.todo-list{
+    background-image: url("../assets/img/todo.png");
+}
+.app{
+    background-image: url("../assets/img/appmovil.jpeg");
+}
+.coshita{
+    background-image: url("../assets/img/coshita.png");
+}
+
+.projects-item-langs ul{
+    display: flex;
+    gap:1rem;
+    list-style: none;
+}
+
+.projects-item-langs ul li{
+    padding: .5rem;
+}
+
+.projects-item-bts{
+    display: flex;
+    gap:1rem;
 }
     
