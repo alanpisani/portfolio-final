@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+:root{
+    --primary-color: #EFEDDC;
+    --secundary-color: #18171C;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+nav{
+    box-shadow: 2px 2px 2px black;
+    padding:1rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-list{
+    display:flex;
+    gap: 2rem;
+}
+.nav-list li{
+    padding:.5rem;
+}
