@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Portfolio - Alan Pisani</title>
 </head>
 <body>
@@ -11,15 +12,15 @@
         <nav>
             <ul>
                 <div class="nav-titulo">
-                    <li>Mi Portfolio</li>
+                    <li>&lt;/&gt; Mi Portfolio</li>
                 </div>
                 
                 <div class="nav-list">
-                    <li>Inicio</li>
-                    <li>Sobre mi</li>
-                    <li>Proyectos</li>
-                    <li>Habilidades</li>
-                    <li>Contactame</li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about-me">Sobre mi</a></li>
+                    <li><a href="#my-projects">Proyectos</a></li>
+                    <li><a href="#">Habilidades</a></li>
+                    <li><a href="#contact-me">Contactame</a></li>
                 </div>
             </ul>
         </nav>
@@ -49,9 +50,9 @@
                 <div class="hero-pic"></div>
             </div>
         </section>
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="about-me-container">
-                <h2 id="about-me">Sobre mi</h2>
+                <h2>Sobre mi</h2>
                 <div class="about-me-content">
                     <div class="about-me-content-pic"></div>
                     <div class="about-me-content-description">
@@ -94,7 +95,7 @@
                 </div>
             </div>
         </section>
-        <section class="my-projects">
+        <section class="my-projects" id="my-projects">
             <div class="my-projects-container">
                 <h2>Mis proyectos</h2>
                 <div class="projects">
@@ -158,7 +159,7 @@
 
             </div>
         </section> -->
-        <section class="contact-me">
+        <section class="contact-me" id="contact-me">
             <div class="contact-me-container">
                 <h2>Contactame</h2>
                 <div class="contact-me-division">
@@ -204,5 +205,7 @@
             </div>
         </section>
     </main>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

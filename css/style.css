@@ -2,16 +2,25 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Arial";
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
     --primary-color: #EFEDDC;
-    --secundary-color: #00050A;
+    --secundary-color: #1F1F1F;
+    --tertiary-color: #00001C;
 }
 
 body{
     background-color: var(--primary-color);
+    color: var(--secundary-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
 }
 
 nav{
@@ -26,12 +35,29 @@ nav ul{
     list-style: none;
 }
 
+.nav-titulo li{
+    cursor:default;
+}
+
 .nav-list{
     display:flex;
     gap: 2rem;
 }
-.nav-list li{
+
+.nav-list li a{
+    text-decoration: none;
+    color: var(--secundary-color);
     padding:.5rem;
+    transition: .2s ease;
+}
+.nav-list li a:hover{
+    color: black;
+}
+
+.nav-list li a.nav-link-focus{
+    background-color: var(--secundary-color);
+    color: var(--primary-color); 
+    border-radius: 5px;
 }
 
 /***HERO***/
