@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px){
+    .nav-list{
+        display:none;
+    }
+
+    .hero{
+        padding:1rem;
+    }
+
+    .hero-container{
+        width:100%;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    h1, .dynamic-text{
+        text-align: center;
+    }
+
+    .hero-content-follow-me{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-content-follow-me-icons{
+        gap:0rem;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    
+    .hero-icons{
+        padding: 1rem;
+        transition: .3s ease;
+    }
+    
+    .hero-content-btns{
+        justify-content: space-around;
+        gap:0rem;
+    }
+
+    .hero-content-btns button{
+        padding:0.75rem;
+        width: 40%;
+    }
+
+    .hero-pic{
+        display: none;
+    }
+
+    /***ABOUT-ME***/
+
+    .about-me{
+        padding:1rem;
+    }
+
+    .about-me-container{
+        width:100%;
+    }
+
+    h2{
+        margin-bottom: 2rem;
+    }
+
+    .about-me-content{
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%
+    }
+
+    .about-me-content-pic{
+        height: 250px;
+        width: 200px;
+    }
+
+    .about-me-content-description{
+        width: 100%;
+    }
+
+    .content-description-part-one{
+        flex-direction: column;
+    }
+
+    h3{
+        text-align: center;
+        width:100%;
+    }
+
+    .who-i-am-title-container, .my-approach-title-container{
+        gap: 1rem;
+    }
+
+    .content-description-part-one i{
+        display: none;
+    }
+
+    .personal-info-list{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 2rem;
+    }
+    .personal-info-list > :nth-child(5) {
+        grid-column: span 1;
+    }
+
+
+    /***MY PROJECTS***/
+
+    .my-projects{
+        padding:1rem;
+    }
+
+    .my-projects-container{
+        width:100%;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap:2rem;
+    }
+
+    .projects-item{
+        border-radius: .5rem;
+    }
+
+    .projects-item-details{
+        align-items: center;
+    }
+
+    .projects-item-bts{
+        margin-top: 1rem;
+    }
+
+    .projects-item-bts button{
+        padding:1rem .2rem;
+        width: 150px;
+    }
+
+    /***CONTACT ME***/
+
+    .contact-me{
+        padding:1rem;
+    }
+
+    .contact-me-container{
+        width:100%;
+    }
+
+    .contact-me-division{
+        flex-direction: column-reverse;
+        gap:3rem;
+        width:100%;
+    }
+
+    .contact-me-socials{
+        width:100%;
+    }
+
+    .contact-me-social-item{
+        border-radius: .5rem;
+        width:100%;
+    }
+    .contact-me-social-item:hover{
+        transform: translateY(0px);
+    }
+
+    .social-item-details{
+        text-align: center;
+        width:100%;
+    }
+
+    .contact-me-form button{
+        padding: 1rem;
+        transition: .15s ease;
+    }
+}

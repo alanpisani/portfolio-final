@@ -348,7 +348,7 @@ h2{
     border-radius: 6px;
     cursor: pointer;
     padding:.5rem;
-    transition: .3s ease;
+    transition: .15s ease;
 }
 .github-btn{
     background-color: var(--secundary-color);
@@ -448,7 +448,7 @@ input, textarea{
     border: 0;
     cursor: pointer;
     padding: .5rem 1rem;
-    transition: .3s ease;
+    transition: .15s ease;
 }
 .contact-me-form button:hover{
     background-color:var(--tertiary-color);
