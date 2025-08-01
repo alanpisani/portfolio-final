@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Portfolio - Alan Pisani</title>
 </head>
 <body>
@@ -31,20 +32,20 @@
                 <div class="hero-content">
                     <div class="hero-content-presentation">
                         <h1>Hola, soy Alan Pisani <span>👋</span></h1>
-                        <p>Desarrollador Backend</p>
+                        <p><span id="typed"></span></p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sunt necessitatibus consequatur, maiores est, deserunt corporis aut officiis, totam fugit nihil exercitationem eos id! Nesciunt id blanditiis possimus sint voluptatem!</p>
+                    <p>Desarrollador Back-End con enfoque en crear soluciones sólidas. Aplico mis conocimientos en diseño de sistemas para construir bases técnicas claras y funcionales.</p>
                     <div class="hero-content-follow-me">
                         <p>Seguime en: </p>
                         <div class="hero-content-follow-me-icons">
-                            <i>caca</i>
-                            <i>caca</i>
-                            <i>caca</i>
+                            <a href="https://github.com/alanpisani" target="_blank"><i class="fa-brands fa-github hero-icons"></i></a>
+                            <a href="https://www.linkedin.com/in/alan-pisani/" target="_blank"><i class="fa-brands fa-linkedin hero-icons"></i></a>
+                            <a href="https://www.instagram.com/alan.pisani/" target="_blank"><i class="fa-brands fa-instagram hero-icons"></i></a>
                         </div>
                     </div>
                     <div class="hero-content-btns">
-                        <button class="view-cv-btn">Ver CV</button>
-                        <button class="download-cv-btn">Descargar CV</button>
+                        <button class="view-cv-btn" id="view-cv-btn"><i class="fa fa-file-text" aria-hidden="true"></i> Ver CV</button>
+                        <button class="download-cv-btn" id="download-cv-btn"><i class="fa fa-download" aria-hidden="true"></i>  Descargar CV</button>
                     </div>
                 </div>
                 <div class="hero-pic"></div>
@@ -206,6 +207,8 @@
         </section>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/script.js"></script>
+    
 </body>
 </html>
