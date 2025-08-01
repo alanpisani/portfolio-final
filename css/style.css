@@ -9,7 +9,7 @@
 :root{
     --primary-color: #EFEDDC;
     --secundary-color: #1F1F1F;
-    --tertiary-color: #00001C;
+    --tertiary-color: #000000;
 }
 
 body{
@@ -51,7 +51,7 @@ nav ul{
     transition: .2s ease;
 }
 .nav-list li a:hover{
-    color: black;
+    color: var(--tertiary-color)
 }
 
 .nav-list li a.nav-link-focus{
@@ -115,7 +115,7 @@ h1{
 }
 
 .hero-icons:hover{
-    background-color: black;
+    background-color: var(--tertiary-color)
 }
 
 .hero-content-btns{
@@ -136,7 +136,7 @@ h1{
     color: var(--primary-color);
 }
 .view-cv-btn:hover{
-    background-color: black;
+    background-color: var(--tertiary-color)
 }
 .hero-content-btns button.download-cv-btn{
     background-color: white;
@@ -191,7 +191,7 @@ h2{
     background-image: url("../assets/img/cara-2.jpeg");
     background-size: cover;
     border:5px solid white;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px var(--tertiary-color);
     height: 350px;
     width: 300px;
 }
@@ -274,7 +274,7 @@ h2{
 
 .projects-item{
     border-radius: 1rem;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px var(--tertiary-color);
     display: flex; flex-direction: column;
     justify-content: space-around;
     gap: 1rem;
@@ -395,11 +395,21 @@ h2{
     width:50%;
 }
 
+.contact-me-socials a{
+    color: var(--secundary-color);
+    text-decoration: none;
+}
+
 .contact-me-social-item{
     border-radius: .5rem;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px var(--tertiary-color);
+    cursor: pointer;
     display:flex;
     padding:1rem;
+    transition: .3s ease;
+}
+.contact-me-social-item:hover{
+    transform: translateY(-3px);
 }
 
 .social-item-details{
@@ -410,11 +420,17 @@ h2{
 
 .contact-me-form{
     border-radius: .5rem;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px var(--tertiary-color);
     display:flex; flex-direction: column;
     flex:1;
     gap:1rem;
     padding:1rem;
+}
+
+.contact-me-form-title-container{
+    display: flex;
+    align-items: center;
+    gap:1rem;
 }
 
 .contact-me-form form{
@@ -427,5 +443,13 @@ input, textarea{
 }
 
 .contact-me-form button{
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    border: 0;
+    cursor: pointer;
     padding: .5rem 1rem;
+    transition: .3s ease;
+}
+.contact-me-form button:hover{
+    background-color:var(--tertiary-color);
 }

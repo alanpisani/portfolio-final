@@ -171,41 +171,50 @@
                 <h2>Contactame</h2>
                 <div class="contact-me-division">
                     <div class="contact-me-socials">
-                        <div class="contact-me-social-item">
-                            <div class="social-item-icon-container">
-                                <i></i>
+                        <a href="https://github.com/alanpisani" target="_blank">
+                            <div class="contact-me-social-item">
+                                <div class="social-item-icon-container">
+                                    <i></i>
+                                </div>
+                                <div class="social-item-details">
+                                    <h3>GitHub</h3>
+                                    <p>Explorá mis códigos y proyectos</p>
+                                </div>
                             </div>
-                            <div class="social-item-details">
-                                <h3>GitHub</h3>
-                                <p>Explorá mis códigos y proyectos</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alan-pisani/" target="_blank">
+                            <div class="contact-me-social-item">
+                                <div class="social-item-icon-container">
+                                    <i></i>
+                                </div>
+                                <div class="social-item-details">
+                                    <h3>Linkedin</h3>
+                                    <p>Conectémonos profesionalmente</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contact-me-social-item">
-                            <div class="social-item-icon-container">
-                                <i></i>
+                        </a>
+                        <a href="https://www.instagram.com/alan.pisani/" target="_blank">
+                            <div class="contact-me-social-item">
+                                <div class="social-item-icon-container">
+                                    <i></i>
+                                </div>
+                                <div class="social-item-details">
+                                    <h3>Instagram</h3>
+                                    <p>Entrá si querés saber un poco más sobre mi</p>
+                                </div>
                             </div>
-                            <div class="social-item-details">
-                                <h3>Linkedin</h3>
-                                <p>Conectémonos profesionalmente</p>
-                            </div>
-                        </div>
-                        <div class="contact-me-social-item">
-                            <div class="social-item-icon-container">
-                                <i></i>
-                            </div>
-                            <div class="social-item-details">
-                                <h3>Instagram</h3>
-                                <p>Entrá si querés saber un poco más sobre mi</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="contact-me-form">
-                        <H3>Mandame un mensaje</H3>
+                        <div class="contact-me-form-title-container">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <H3>Mandame un mensaje</H3>
+                        </div>
                         <form method="POST">
                             <input type="text" placeholder="Escribí tu nombre">
                             <input type="text" placeholder="Escribí tu correo electrónico">
                             <textarea name="" id="" placeholder="Escribí tu mensaje" cols="40" rows="10"></textarea>
-                            <button type="submit">Enviar</button>
+                            <button type="submit" id="send-btn">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                         </form>
                     </div>
                 </div>
@@ -214,6 +223,8 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
     <script type="module" src="js/script.js"></script>
     
 </body>
