@@ -314,11 +314,54 @@ h2{
 
 .projects-item-langs ul li{
     padding: .5rem;
+    border-radius:1rem;
+    cursor: default;
+}
+.asp-li{
+    background-color:dodgerblue;
+    color: var(--primary-color);
+}
+.mysql-li{
+    background-color: peru;
+    color: var(--primary-color);
+}
+.bootstrap-li{
+    background-color: darkslateblue;
+    color: var(--primary-color);
+}
+.flutter-li{
+    background-color:cornflowerblue;
+    color: var(--primary-color);
+}
+.js-li{
+    background-color:goldenrod;
 }
 
 .projects-item-bts{
     display: flex;
     gap:1rem;
+    margin-top: 2rem;
+}
+
+.projects-item-bts button{
+    border: 1px solid var(--secundary-color);
+    border-radius: 6px;
+    cursor: pointer;
+    padding:.5rem;
+    transition: .3s ease;
+}
+.github-btn{
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}
+.github-btn:hover{
+    background-color: var(--tertiary-color);
+}
+.demo-btn{
+    background-color:var(--primary-color);
+}
+.demo-btn:hover{
+    background-color: white;
 }
 
 /***CONTACT ME***/
