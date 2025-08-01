@@ -4,4 +4,9 @@ import "./hero.js";
 import "./my-proyects.js";
 import "./contact.js";
 
-Swal.fire("En algunas pantallas puede que no se vea del todo bien. Dame tiempo para solucionarlo");
+Swal.fire({
+    title:"Web aún en construcción 👷‍♂️",
+    text:"Puede que no se vea del todo bien. Dame tiempo para solucionarlo.",
+    confirmButtonText: 'Aceptar',
+    confirmButtonColor: 'var(--secundary-color)'
+});
