@@ -1,0 +1,170 @@
+@media only screen and (min-width: 769px) and (max-width: 991px){
+    .hero{
+        padding:4rem;
+    }
+
+    .hero-container{
+        width:100%;
+    }
+
+    .hero-content{
+        width: 100%;
+        align-items: center;
+    }
+
+    h1, .dynamic-text{
+        text-align: center;
+    }
+
+    .hero-content-description{
+        width:70%;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .hero-content-follow-me{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-content-follow-me-icons{
+        gap:2rem;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .hero-icons{
+        padding: 1rem;
+        transition: .3s ease;
+    }
+    
+    .hero-content-btns{
+        justify-content: space-around;
+        width: 100%;;
+        gap:0rem;
+    }
+
+    .hero-content-btns button{
+        padding:0.75rem;
+        width: 40%;
+    }
+
+    .hero-pic{
+        display: none;
+    }
+
+    /***ABOUT-ME***/
+
+    .about-me{
+        padding:4rem;
+    }
+
+    .about-me-container{
+        width:100%;
+    }
+
+    h2{
+        margin-bottom: 2rem;
+    }
+
+    .about-me-content{
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%
+    }
+
+    .about-me-content-pic{
+        height: 250px;
+        width: 200px;
+    }
+
+    .about-me-content-description{
+        width: 100%;
+    }
+
+    .who-i-am-title-container, .my-approach-title-container{
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .who-i-am p, .my-approach p{
+        text-align: center;
+        
+    }
+
+    /***MY PROJECTS***/
+
+    .my-projects{
+        padding:4rem;
+    }
+
+    .my-projects-container{
+        width:100%;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:2rem;
+        
+    }
+
+    .projects-item{
+        border-radius: .5rem;
+    }
+
+    .projects-item-details{
+        align-items: center;
+    }
+
+    .projects-item-bts{
+        margin-top: 1rem;
+    }
+
+    .projects-item-bts button{
+        padding:1rem .2rem;
+        width: 150px;
+    }
+
+    /***CONTACT ME***/
+
+    .contact-me{
+        padding:4rem;
+    }
+
+    .contact-me-container{
+        width:100%;
+    }
+
+    .contact-me-division{
+        flex-direction: column;
+        gap:3rem;
+        width:100%;
+    }
+
+    .contact-me-socials{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-me-social-item{
+        border-radius: .5rem;
+        width:100%;
+    }
+    .contact-me-social-item:hover{
+        transform: translateY(0px);
+    }
+
+    .social-item-details{
+        text-align: center;
+        width:100%;
+    }
+
+    .contact-me-form button{
+        padding: 1rem;
+        transition: .15s ease;
+    }
+
+}
