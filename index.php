@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+    require_once "mail.php";
+?>
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -219,10 +223,10 @@
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             <H3>Mandame un mensaje</H3>
                         </div>
-                        <form method="POST">
-                            <input type="text" placeholder="Escribí tu nombre">
-                            <input type="text" placeholder="Escribí tu correo electrónico">
-                            <textarea name="" id="" placeholder="Escribí tu mensaje" cols="40" rows="10"></textarea>
+                        <form method="POST" action="mail.php">
+                            <input type="text" name="name" placeholder="Escribí tu nombre">
+                            <input type="text" name="email" placeholder="Escribí tu correo electrónico">
+                            <textarea id="" name="msj" placeholder="Escribí tu mensaje" cols="40" rows="10"></textarea>
                             <button type="submit" id="send-btn">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                         </form>
                     </div>
