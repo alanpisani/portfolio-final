@@ -8,9 +8,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" href="css/tablet.css">
-    <link rel="stylesheet" href="css/laptop.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio - Alan Pisani</title>
@@ -18,23 +15,26 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <div class="nav-titulo">
-                    <li>&lt;/&gt; Mi Portfolio</li>
-                </div>
-                
-                <div class="nav-list">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#about-me">Sobre mi</a></li>
-                    <li><a href="#my-projects">Proyectos</a></li>
-                    <li><a href="#">Habilidades</a></li>
-                    <li><a href="#contact-me">Contactame</a></li>
-                </div>
+            <div class="nav-titulo">
+                <p>&lt;/&gt; Mi Portfolio</p>
+            </div>
+
+            <input type="checkbox" id="check">
+            <label class="burger" for="check">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about-me">Sobre mí</a></li>
+                <li><a href="#my-projects">Proyectos</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#contact-me">Contactame</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="hero-container">
                 <div class="hero-content">
                     <div class="hero-content-presentation">
