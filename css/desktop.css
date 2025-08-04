@@ -297,7 +297,7 @@ h2{
 }
 
 .projects-item-img{
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width:100%;
     height: 200px;
@@ -412,7 +412,7 @@ h2{
     text-align: center;
     gap: 1rem;
     width :100%;
-    height: 700px;
+    height: 650px;
     box-shadow: 0 0 5px var(--secundary-color);
     padding:1rem;
 }
@@ -455,11 +455,17 @@ h2{
 
 .skills-pagination{
     display:flex;
+    align-items: center;
     gap:1rem;
 }
 
 .skills-pagination button{
     cursor: pointer;
+    padding:.2rem .4rem;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    border: 0;
+    font-size: 1.2rem;
 }
 
 .fade-in {

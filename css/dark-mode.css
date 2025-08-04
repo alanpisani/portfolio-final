@@ -7,6 +7,10 @@ body.dark-mode header{
     background-color: var(--secundary-color);
 }
 
+body.dark-mode nav ul{
+    background-color: var(--secundary-color);
+}
+
 body.dark-mode .nav-list li a{
     color: var(--primary-color);
 }
@@ -15,6 +19,34 @@ body.dark-mode .contact-me-socials a{
     color: var(--primary-color);
 }
 
+body.dark-mode .burger span{
+    background-color: var(--primary-color);
+}
+
 body.dark-mode .dark-mode-btn{
     background-color: var(--primary-color);
+}
+
+body.dark-mode .about-me-content-description{
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    
+}
+
+body.dark-mode .skills-content, body.dark-mode .skills-grid-card{
+    box-shadow: 0 0 10px black;
+}
+
+body.dark-mode .skills-pagination button{
+    box-shadow: 0 0 5px black;
+}
+
+
+body.dark-mode input, body.dark-mode textarea{
+    background-color: transparent !important;
+    color: var(--primary-color);
+}
+
+body.dark-mode .contact-me-form button{
+    box-shadow: 0 0 10px black;
 }

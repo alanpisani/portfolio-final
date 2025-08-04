@@ -240,9 +240,9 @@
                             <H3>Mandame un mensaje</H3>
                         </div>
                         <form method="POST" action="mail.php">
-                            <input type="text" name="name" placeholder="Escribí tu nombre">
-                            <input type="text" name="email" placeholder="Escribí tu correo electrónico">
-                            <textarea id="" name="msj" placeholder="Escribí tu mensaje" cols="40" rows="10"></textarea>
+                            <input type="text" name="name" placeholder="Escribí tu nombre" required>
+                            <input type="text" name="email" placeholder="Escribí tu correo electrónico" required>
+                            <textarea id="" name="msj" placeholder="Escribí tu mensaje" cols="40" rows="10" required></textarea>
                             <button type="submit" id="send-btn">Enviar <i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                         </form>
                     </div>

@@ -30,7 +30,7 @@ const nextBtn = document.getElementById("next-page-btn");
 const prevBtn = document.getElementById("prev-page-btn");
 const detailsHtml = document.getElementById("skills-description-detail");
 const detailsTitleHtml = document.getElementById("skills-description-title");
-
+const p = document.getElementById("page-indicator");
 
 let currentPage = 1;
 let itemsPerPage = 5;
@@ -57,7 +57,7 @@ function renderPage() {
         container.appendChild(div);
     });
 
-    document.getElementById("page-indicator").textContent = `Página ${currentPage} de ${Math.ceil(items.length / itemsPerPage)}`;
+    p.textContent = `${currentPage} de ${Math.ceil(items.length / itemsPerPage)}`;
     
     detailsHtml.innerHTML = details[currentPage - 1];
     detailsTitleHtml.innerHTML = titles[currentPage - 1];
