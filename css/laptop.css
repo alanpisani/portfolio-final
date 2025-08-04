@@ -107,6 +107,42 @@
         width: 150px;
     }
 
+    /***SKILLS***/
+
+    .skills{
+        padding: 2.75rem;
+    }
+
+    .skills-container{
+        width: 100%;
+    }
+
+    .skills-content{
+        height: 500px;
+        justify-content: center;
+    }
+
+    .skills-content-grid{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .skills-grid-card{
+        align-items: center;
+        gap: 1rem;
+        height: 115px;
+    }
+
+    .skills-grid-card img{
+        width: 50px;
+    }
+
+    .skills-content-description{
+        width: 100%;
+        height: 40%;
+    }
+
     /***CONTACT ME***/
 
     .contact-me{
