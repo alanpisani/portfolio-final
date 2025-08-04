@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <title>Portfolio - Alan Pisani</title>
 </head>
 <body>
@@ -25,12 +26,14 @@
             </label>
 
             <ul class="nav-list">
-                <li><a href="#hero">Inicio</a></li>
-                <li><a href="#about-me">Sobre mí</a></li>
-                <li><a href="#my-projects">Proyectos</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#contact-me">Contactame</a></li>
+                <li><a href="#hero" data-aos="fade" data-aos-duration="500">Inicio</a></li>
+                <li><a href="#about-me" data-aos="fade" data-aos-duration="1000">Sobre mí</a></li>
+                <li><a href="#my-projects" data-aos="fade" data-aos-duration="1500">Proyectos</a></li>
+                <li><a href="#skills" data-aos="fade" data-aos-duration="2000">Habilidades</a></li>
+                <li><a href="#contact-me" data-aos="fade" data-aos-duration="2500">Contactame</a></li>
+                <li><button id="dark-mode-btn" class="dark-mode-btn" data-aos="fade" data-aos-duration="3000"></button></li>
             </ul>
+            
         </nav>
     </header>
     <main>
@@ -109,7 +112,7 @@
                 </div>
             </div>
         </section>
-        <section class="my-projects" id="my-projects">
+        <section class="my-projects" id="my-projects" data-aos="fade" data-aos-duration="1500" data-aos-offset="50">
             <div class="my-projects-container">
                 <h2>Mis proyectos</h2>
                 <div class="projects">
@@ -174,12 +177,25 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="skills">
-            <div class="skill-container">
-
+        <section class="skills" id="skills" data-aos="fade" data-aos-duration="1500">
+            <div class="skills-container">
+                <h2>Habilidades</h2>
+                <div class="skills-content">
+                    <div class="skills-content-grid" id="skills-grid">
+                    </div>
+                    <div class="skills-content-description">
+                        <h3 id="skills-description-title"></h3>
+                        <p id="skills-description-detail"></p>
+                    </div>
+                </div>
+                <div class="skills-pagination">
+                    <button id="prev-page-btn">&lt</button>
+                    <p id="page-indicator"></p>
+                    <button id="next-page-btn">&gt</button>
+                </div>
             </div>
-        </section> -->
-        <section class="contact-me" id="contact-me">
+        </section>
+        <section class="contact-me" id="contact-me" data-aos="fade" data-aos-duration="1500">
             <div class="contact-me-container">
                 <h2>Contactame</h2>
                 <div class="contact-me-division">
@@ -237,7 +253,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="module" src="js/script.js"></script>
     
 </body>

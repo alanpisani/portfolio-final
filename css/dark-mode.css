@@ -1,0 +1,20 @@
+body.dark-mode{
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}
+
+body.dark-mode header{
+    background-color: var(--secundary-color);
+}
+
+body.dark-mode .nav-list li a{
+    color: var(--primary-color);
+}
+
+body.dark-mode .contact-me-socials a{
+    color: var(--primary-color);
+}
+
+body.dark-mode .dark-mode-btn{
+    background-color: var(--primary-color);
+}
