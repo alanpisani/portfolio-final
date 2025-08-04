@@ -49,7 +49,7 @@ function renderPage() {
         const div = document.createElement("div");
         div.className = "skills-grid-card";
         div.innerHTML = `<img src="assets/icons/${icons[start + i]}.svg">
-                           <p>${item}</p>     
+                           <p>${item}</p>  
         `;
         if(item === "Dart" || item === "Flutter"){
             div.classList.add("ultimo");
