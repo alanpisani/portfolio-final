@@ -217,6 +217,7 @@ h2{
     justify-content: space-around;
     width: 50%;
     gap:1.5rem;
+    padding:2rem;
 }
 
 .content-description-part-one{
@@ -297,11 +298,16 @@ h2{
 }
 
 .projects-item-img{
+    background-color: var(--secundary-color);
     background-size: contain;
+    background-position: center center;
     background-repeat: no-repeat;
-    width:100%;
-    height: 200px;
-    
+    width:100%; height: 200px;
+    transition: .3s ease;
+}
+
+.projects-item-img:hover{
+    transform: scale(1.005);
 }
 
 .text-container{
