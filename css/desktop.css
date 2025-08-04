@@ -27,6 +27,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     box-shadow: 0px 0px 5px var(--secundary-color);
     padding:1rem;
 }
@@ -306,9 +307,6 @@ h2{
     transition: .3s ease;
 }
 
-.projects-item-img:hover{
-    transform: scale(1.005);
-}
 
 .text-container{
     border-radius: 6px;
